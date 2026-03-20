@@ -162,6 +162,7 @@ export const OUTFIT_LIST = {
   "BOSCasual": "BoS Casual",
   "WeddingDress": "Wedding Dress",
   "PrewarCowboy": "Prewar Cowboy Costume",
+  "NCR_Ranger": "NCR Ranger Outfit",
 } as const;
 
 export type OutfitSpecial = { S: number; P: number; E: number; C: number; I: number; A: number; L: number };
@@ -251,6 +252,7 @@ export const OUTFIT_SPECIAL_BONUSES: Record<string, OutfitSpecial> = {
   "MoldaversArmor": { S: 2, P: 2, E: 4, C: 0, I: 0, A: 0, L: 4 },
   "MoviefanSpecial": { S: 0, P: 4, E: 0, C: 0, I: 0, A: 0, L: 1 },
   "MrBurkeSpecial": { S: 0, P: 0, E: 0, C: 0, I: 0, A: 0, L: 0 },
+  "NCR_Ranger": { S: 0, P: 4, E: 0, C: 2, I: 0, A: 2, L: 2 },
   "NinjaSuit": { S: 0, P: 0, E: 0, C: 0, I: 0, A: 4, L: 1 },
   "PiperSpecial": { S: 0, P: 2, E: 2, C: 0, I: 0, A: 2, L: 2 },
   "PolkaDotDress": { S: 1, P: 0, E: 0, C: 0, I: 1, A: 0, L: 0 },
