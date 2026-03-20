@@ -157,12 +157,18 @@ export const OUTFIT_LIST = {
   "RobCoRdSuit": "RobCo R&D Suit",
   "Vault33Suit": "Vault 33 Suit",
   "WilzigsTravelwear": "Wilzig's Travelwear",
+  
+  "ActionWeddingDress": "Action Wedding Dress",
+  "BOSCasual": "BoS Casual",
+  "WeddingDress": "Wedding Dress",
+  "PrewarCowboy": "Prewar Cowboy Costume",
 } as const;
 
 export type OutfitSpecial = { S: number; P: number; E: number; C: number; I: number; A: number; L: number };
 
 export const OUTFIT_SPECIAL_BONUSES: Record<string, OutfitSpecial> = {
   "AbrahamSpecial": { S: 0, P: 0, E: 1, C: 0, I: 2, A: 2, L: 2 },
+  "ActionWeddingDress": { S: 0, P: 0, E: 0, C: 0, I: 0, A: 2, L: 2 },
   "AlistairSpecial": { S: 0, P: 2, E: 0, C: 2, I: 2, A: 0, L: 1 },
   "AllNightware": { S: 0, P: 0, E: 0, C: 3, I: 0, A: 0, L: 0 },
   "AllNightware_Lucky": { S: 0, P: 0, E: 0, C: 7, I: 0, A: 0, L: 0 },
@@ -261,6 +267,7 @@ export const OUTFIT_SPECIAL_BONUSES: Record<string, OutfitSpecial> = {
   "PowerArmor_T60d": { S: 2, P: 0, E: 4, C: 0, I: 0, A: 0, L: 0 },
   "PowerArmor_T60f": { S: 1, P: 1, E: 5, C: 0, I: 0, A: 0, L: 0 },
   "PrestonSpecial": { S: 2, P: 2, E: 0, C: 0, I: 2, A: 2, L: 0 },
+  "PrewarCowboy": { S: 0, P: 0, E: 0, C: 2, I: 0, A: 2, L: 0 },
   "PrinceSpecial": { S: 0, P: 0, E: 2, C: 0, I: 2, A: 0, L: 1 },
   "ProfessorSpecial": { S: 0, P: 0, E: 0, C: 0, I: 4, A: 0, L: 1 },
   "RadiationSuit": { S: 0, P: 1, E: 2, C: 0, I: 0, A: 0, L: 0 },
@@ -306,7 +313,7 @@ export const OUTFIT_SPECIAL_BONUSES: Record<string, OutfitSpecial> = {
   "UtilityJumpsuit": { S: 0, P: 3, E: 0, C: 0, I: 0, A: 0, L: 0 },
   "UtilityJumpsuit_Heavy": { S: 0, P: 7, E: 0, C: 0, I: 0, A: 0, L: 0 },
   "UtilityJumpsuit_Sturdy": { S: 0, P: 5, E: 0, C: 0, I: 0, A: 0, L: 0 },
-  "Vault33Suit": { S: 0, P: 0, E: 0, C: 0, I: 0, A: 0, L: 0 },
+  "Vault33Suit": { S: 0, P: 3, E: 0, C: 0, I: 0, A: 0, L: 2 },
   "Vest": { S: 0, P: 1, E: 0, C: 1, I: 1, A: 0, L: 1 },
   "WaitressUniform": { S: 0, P: 0, E: 0, C: 0, I: 0, A: 4, L: 0 },
   "WandererArmor": { S: 1, P: 0, E: 2, C: 0, I: 0, A: 0, L: 0 },
@@ -315,6 +322,7 @@ export const OUTFIT_SPECIAL_BONUSES: Record<string, OutfitSpecial> = {
   "WastelandSurgeon": { S: 0, P: 4, E: 0, C: 0, I: 0, A: 0, L: 3 },
   "WastelandSurgeon_Doctor": { S: 0, P: 3, E: 0, C: 0, I: 0, A: 0, L: 2 },
   "WastelandSurgeon_Settler": { S: 0, P: 2, E: 0, C: 0, I: 0, A: 0, L: 1 },
+  "WeddingDress": { S: 0, P: 0, E: 0, C: 2, I: 0, A: 0, L: 2 },
   "WilzigsTravelwear": { S: 0, P: 4, E: 2, C: 0, I: 0, A: 2, L: 4 },
   "WorkDress": { S: 0, P: 1, E: 1, C: 0, I: 0, A: 0, L: 0 },
   "WrestlerSpecial": { S: 2, P: 0, E: 2, C: 0, I: 0, A: 0, L: 1 },
