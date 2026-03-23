@@ -201,7 +201,7 @@ export const WEAPON_LIST = {
   'T60Pistol': 'T-60 Pistol',
   'T60Pistol_ArmorPiercing': 'Armor Piercing T-60 Pistol',
   'UltraciteGatling1': 'Ultracite Gatling Gun',
-  'UltraciteGatling2': 'Enhanced Ultracite Gatling Gun',
+  'UltraciteGatling2': 'Maximized Ultracite Gatling Gun',
   'UltraciteSword1': 'Ultracite Sword',
-  'UltraciteSword2': 'Enhanced Ultracite Sword',
+  'UltraciteSword2': 'Maximized Ultracite Sword',
 } as const;
